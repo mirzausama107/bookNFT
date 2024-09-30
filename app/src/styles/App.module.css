@@ -1,0 +1,53 @@
+.appContainer {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+    color: #FFFFFF;
+  }
+  
+  .sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #6200EE;
+  }
+  
+  .sidebar nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar button {
+    background-color: #6200EE;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .sidebar button:hover {
+    background-color: #3700B3;
+  }
+  
+  .mainContent {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .splitView {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  
